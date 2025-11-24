@@ -7,12 +7,13 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/mobileweb2568/lab01_react/',
   plugins: [
     react(),
     legacy()
   ],
   build:{
-    outDir:path.resolve(__dirname,'../../docs/lab01_rect')
+    outDir:path.resolve(__dirname,'../../docs/lab01_react')
   },
   test: {
     globals: true,
